@@ -6,7 +6,7 @@ This hosts file is a merged collection of hosts from reputable sources, with a d
 ## Source
 
 - **Original Author:** StevenBlack
-  - Project home page: [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+  - Project repository: [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
   - Fetch the latest version of the original file: [Latest hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
   - Project releases: [Releases](https://github.com/StevenBlack/hosts/releases)
 - **Modification Author:** ccmvn <info@ccmvn.co>
@@ -34,4 +34,4 @@ Replace your current hosts file with this updated version to ensure that Google 
 ## Metadata
 
 - **Date:** 03 June 2024 21:08:13 (UTC)
-- **Number of unique domains:** 144,894
+- **Number of unique domains:** 144,891
