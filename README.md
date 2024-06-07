@@ -14,7 +14,7 @@ This hosts file is a merged collection of hosts from reputable sources, with a d
 ## Modifications Made
 
 The following entries have been commented out to ensure that Google Shopping Ads are not blocked:
-
+- `ad.doubleclick.net`
 - `googleadservices.com`
 - `pagead2.googleadservices.com`
 - `www.googleadservices.com`
