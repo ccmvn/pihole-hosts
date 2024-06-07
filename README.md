@@ -36,5 +36,5 @@ Replace your current hosts file with this updated version to ensure that Google 
 
 ## Metadata
 
-- **Date:** 03 June 2024 21:08:13 (UTC)
-- **Number of unique domains:** 144,888
+- **Date:** 07 June 2024 07:29:13 (UTC)
+- **Number of unique domains:** 144,887 
