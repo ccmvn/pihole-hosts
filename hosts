@@ -8016,9 +8016,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 s0-2mdn-net.l.google.com
 
 # [googleadservices.com]
-0.0.0.0 googleadservices.com
+# 0.0.0.0 googleadservices.com
 0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 www.googleadservices.com
+# 0.0.0.0 www.googleadservices.com
 
 # [googleadsserving.cn]
 0.0.0.0 static.googleadsserving.cn
