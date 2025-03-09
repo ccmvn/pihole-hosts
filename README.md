@@ -15,13 +15,8 @@ This hosts file is a merged collection of hosts from reputable sources, with a d
 
 The following entries have been commented out to ensure that Google Shopping Ads are not blocked:
 - `ad.doubleclick.net`
-- `googleadservices.com`
-- `pagead2.googleadservices.com`
-- `www.googleadservices.com`
 - `googleads.g.doubleclick.net`
 - `googleads4.g.doubleclick.net`
-- `pagead.googlesyndication.com`
-- `pagead2.googlesyndication.com`
 
 ## Instructions
 
@@ -36,5 +31,4 @@ Replace your current hosts file with this updated version to ensure that Google 
 
 ## Metadata
 
-- **Date:** 27 October 2024 02:44:03 (UTC)
-- **Number of unique domains:** 118,120
+- **Date:** 9 October March 18:09:03 (UTC)
