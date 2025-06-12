@@ -33,4 +33,4 @@ Replace your current hosts file with this updated version to ensure that Google 
 
 ## Metadata
 
-- **Date:** 9 October March 18:09:03 (UTC)
+- **Date:** 12 June 21:16:23 (UTC)
