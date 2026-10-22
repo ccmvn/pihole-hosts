@@ -49,5 +49,13 @@ Publishing the file does not refresh Pi-hole's Gravity database. For the contain
 /usr/local/bin/docker exec pihole pihole -g
 ```
 
-Use a daily DSM task at **08:00 Europe/Berlin**, after the NAS starts. Prevent overlapping runs and
-report failures through DSM task results. This repository alone does not create the NAS task.
+The DSM task **Pi-hole Gravity daily** runs daily at **08:00 Europe/Berlin**, after the NAS starts.
+Its script is versioned in [scripts/refresh_gravity.sh](../scripts/refresh_gravity.sh): copy that
+script into a scheduled user-defined task running as root. It checks the running container and
+DSM project, prevents overlapping copies of this task, updates Gravity and refreshes the version
+cache with `pihole updatechecker`. This does not upgrade Pi-hole.
+
+Check failures in DSM task results. A lock left by an unclean termination causes exit 75; inspect
+active tasks before removing the empty `/var/run/ccmvn-pihole-gravity.lock` directory. Changes to
+the repository script must also be applied to the DSM task; the NAS does not download root scripts.
+This repository alone does not create the NAS task.
