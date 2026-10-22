@@ -1,36 +1,50 @@
+# Pi-hole hosts
 
-# Updated Hosts File
+[StevenBlack's hosts list](https://github.com/StevenBlack/hosts), with five exact exceptions for Google Shopping Ads.
 
-This hosts file is a merged collection of hosts from reputable sources, with a dash of crowd sourcing via GitHub.
+## Use
 
-## Source
+Add this blocklist in Pi-hole and update Gravity (`pihole -g`):
 
-- **Original Author:** StevenBlack
-  - Project repository: [StevenBlack/hosts](https://github.com/StevenBlack/hosts)
-  - Fetch the latest version of the original file: [Latest hosts file](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
-  - Project releases: [Releases](https://github.com/StevenBlack/hosts/releases)
-- **Modification Author:** ccmvn <info@ccmvn.co>
+```text
+https://raw.githubusercontent.com/ccmvn/pihole-hosts/master/hosts
+```
 
-## Modifications Made
+Keep the direct StevenBlack list disabled. Other enabled lists may still block these domains;
+exceptions in this file are not global Pi-hole allow rules.
 
-The following entries have been commented out to ensure that Google Shopping Ads are not blocked:
+## Exceptions
+
+Maintained in [exceptions.txt](exceptions.txt); this section is generated automatically.
+
+<!-- exceptions:start -->
 - `ad.doubleclick.net`
 - `googleadservices.com`
 - `www.googleadservices.com`
 - `googleads.g.doubleclick.net`
 - `googleads4.g.doubleclick.net`
+<!-- exceptions:end -->
 
-## Instructions
+## Updates
 
-Replace your current hosts file with this updated version to ensure that Google Shopping Ads are not blocked. Ensure you have the necessary permissions to modify the hosts file on your system.
+GitHub Actions checks daily at **04:17 UTC** and publishes validated changes automatically.
+Manual updates: **Actions → Validate and update hosts → Run workflow**.
 
-### Usage
+For local changes (Python 3.10+, no dependencies):
 
-1. Backup your existing hosts file.
-2. Replace it with the updated `hosts` file provided in this repository.
+```sh
+python3 scripts/update_hosts.py
+python3 scripts/update_hosts.py --check
+python3 -m unittest discover -s tests
+```
 
-**Note:** Modifying the hosts file requires administrative privileges. Ensure you are aware of the implications of changing this file on your system's behavior.
+See [maintenance](docs/maintenance.md) for safety checks, recovery and Synology scheduling.
 
-## Metadata
+## Source
 
-- **Date:** 04 August 2026 15:53:06 (UTC)
+<!-- source:start -->
+- Upstream: [`7df0d76`](https://github.com/StevenBlack/hosts/commit/7df0d762c34cb964c46f115e17cd9a7bd11aae59)
+- Blocked domains: 71,488; checksums in [source.json](source.json).
+<!-- source:end -->
+
+Upstream credits and license notices are preserved in `hosts`. Modifications by ccmvn.

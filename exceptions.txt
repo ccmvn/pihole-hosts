@@ -1,0 +1,6 @@
+# Exact domains that must not be blocked (Google Shopping Ads).
+ad.doubleclick.net
+googleadservices.com
+www.googleadservices.com
+googleads.g.doubleclick.net
+googleads4.g.doubleclick.net
