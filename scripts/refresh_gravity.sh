@@ -2,7 +2,7 @@
 set -eu
 umask 077
 docker_bin=/usr/local/bin/docker
-lock_dir=/var/run/ccmvn-pihole-gravity.lock
+lock_dir=/var/run/pihole-gravity.lock
 if ! mkdir "$lock_dir" 2>/dev/null; then
   echo 'Gravity update locked; another run is active or a stale lock needs inspection.' >&2
   exit 75

@@ -56,6 +56,6 @@ DSM project, prevents overlapping copies of this task, updates Gravity and refre
 cache with `pihole updatechecker`. This does not upgrade Pi-hole.
 
 Check failures in DSM task results. A lock left by an unclean termination causes exit 75; inspect
-active tasks before removing the empty `/var/run/ccmvn-pihole-gravity.lock` directory. Changes to
+active tasks before removing the empty `/var/run/pihole-gravity.lock` directory. Changes to
 the repository script must also be applied to the DSM task; the NAS does not download root scripts.
 This repository alone does not create the NAS task.
