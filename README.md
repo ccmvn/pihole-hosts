@@ -43,8 +43,8 @@ See [maintenance](docs/maintenance.md) for safety checks, recovery and Synology 
 ## Source
 
 <!-- source:start -->
-- Upstream: [`6d56ab4`](https://github.com/StevenBlack/hosts/commit/6d56ab44f2b3d27de062b5194eb51bcd8115a773)
-- Blocked domains: 77,754; checksums in [source.json](source.json).
+- Upstream: [`8ba3332`](https://github.com/StevenBlack/hosts/commit/8ba3332f85c3cce2dbc1e86d741c070a27d880f8)
+- Blocked domains: 78,211; checksums in [source.json](source.json).
 <!-- source:end -->
 
 Upstream credits and license notices are preserved in `hosts`. Modifications by ccmvn.

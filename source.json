@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "upstream_repository": "https://github.com/StevenBlack/hosts",
-  "upstream_commit": "6d56ab44f2b3d27de062b5194eb51bcd8115a773",
-  "upstream_url": "https://raw.githubusercontent.com/StevenBlack/hosts/6d56ab44f2b3d27de062b5194eb51bcd8115a773/hosts",
-  "upstream_sha256": "0d81148f9990ecbde614ba1a135f81113fbb5f9972e783af22ff1c6dadb57508",
-  "generated_sha256": "ed321ba9dd1cf59ccd6d1d526ff023f7872bc46b31f7c7108939be54a3d3ec0a",
-  "blocked_domains": 77754,
+  "upstream_commit": "8ba3332f85c3cce2dbc1e86d741c070a27d880f8",
+  "upstream_url": "https://raw.githubusercontent.com/StevenBlack/hosts/8ba3332f85c3cce2dbc1e86d741c070a27d880f8/hosts",
+  "upstream_sha256": "35dba9f4adebb171b23c117b5360232ad3b35df761893dcec008e67c56581938",
+  "generated_sha256": "36ac0e2c858d72f8b971beed7339b7726414be597e7eef9ca65c13bdc3acdbcb",
+  "blocked_domains": 78211,
   "exceptions": [
     "ad.doubleclick.net",
     "googleadservices.com",
