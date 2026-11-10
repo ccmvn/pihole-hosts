@@ -43,7 +43,7 @@ See [maintenance](docs/maintenance.md) for safety checks, recovery and Synology 
 ## Source
 
 <!-- source:start -->
-- Upstream: [`8ba3332`](https://github.com/StevenBlack/hosts/commit/8ba3332f85c3cce2dbc1e86d741c070a27d880f8)
+- Upstream: [`681b61e`](https://github.com/StevenBlack/hosts/commit/681b61eceef1cabaa434394a97babef5d57bdc78)
 - Blocked domains: 78,211; checksums in [source.json](source.json).
 <!-- source:end -->
 
